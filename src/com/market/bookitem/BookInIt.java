@@ -35,7 +35,7 @@ public class BookInIt {
 
 	public static void setFileToBookList(ArrayList<Book> booklist) {
 		try {
-			FileReader fr = new FileReader("book.txt");
+			FileReader fr = new FileReader("books.txt");
 			BufferedReader reader = new BufferedReader(fr);
 
 			String str2;
